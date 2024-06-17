@@ -29,11 +29,13 @@ public class LivroController {
 
     @GetMapping(value = "/{id}")
     public ResponseEntity<Livro> getId(@PathVariable Long id){
+
         return ResponseEntity.ok().body(service.getId(id));
     }
 
     @GetMapping
     public ResponseEntity<List<Livro>> getAll(){
+
         return ResponseEntity.ok().body(service.getAll());
     }
 
