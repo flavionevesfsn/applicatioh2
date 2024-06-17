@@ -17,6 +17,7 @@ public class LivroService {
 
     public Livro create(Livro obj){
 
+
         return repository.save(obj);
     }
 
@@ -30,6 +31,7 @@ public class LivroService {
     }
 
     public List<Livro> getAll(){
+
         return repository.findAll();
     }
 
