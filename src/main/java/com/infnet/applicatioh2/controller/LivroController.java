@@ -37,6 +37,7 @@ public class LivroController {
     public ResponseEntity<List<Livro>> getAll(){
 
         return ResponseEntity.ok().body(service.getAll());
+        //return ResponseEntity.ok().body(service.getAll());
     }
 
     @PutMapping(value = "/{id}")
