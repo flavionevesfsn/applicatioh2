@@ -12,8 +12,8 @@ import java.util.Optional;
 @Service
 public class LivroService {
 
-
-    //private LivroRepository repository;
+    @Autowired
+    private LivroRepository repository;
 
     public Livro create(Livro obj){
 
