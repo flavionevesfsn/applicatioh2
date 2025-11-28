@@ -8,6 +8,7 @@ public class Applicatioh2Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Applicatioh2Application.class, args);
+		System.out.println("Criando conflito, para resolvermos!");
 	}
 
 }
